@@ -1,0 +1,53 @@
+<?phP
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.webp" alt="Smart Task Manager Logo" class="logo">
+
+  <div class="container">
+    <header>
+      <h1>Smart Task Manager</h1>
+      <!-- <p>AI-Driven Task Suggestions for Efficient Productivity</p> -->
+    </header>
+
+    <!-- Uncomment and modify navigation if needed -->
+    <!-- 
+    <nav>
+      <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#tasks">Tasks</a></li>
+          <li><a href="#ai-suggestions">AI Suggestions</a></li>
+      </ul>
+    </nav> 
+    -->
+
+    <section class="task-input">
+      <input type="text" id="taskInput" placeholder="Add a new task..." />
+      <button onclick="addTask()">Add Task</button>
+    </section>
+
+    <section class="task-list">
+      <ul id="taskList"></ul>
+    </section>
+
+    <section class="ai-suggestions">
+      <h2>AI Suggestions</h2>
+      <ul id="suggestionsList">
+        <!-- AI-generated suggestions will appear here -->
+      </ul>
+    </section>
+  </div>
+
+  <a href="main_page.php" class="back-link">Back to Main Page</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
